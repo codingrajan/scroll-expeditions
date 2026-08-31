@@ -5,7 +5,7 @@ satellite data and delivered as fast, embeddable web experiences.
 
 **Live: [ebc-flythrough.pages.dev](https://ebc-flythrough.pages.dev)**
 
-[![Everest Base Camp flythrough](https://ebc-flythrough.pages.dev/og/og-image.jpg)](https://ebc-flythrough.pages.dev)
+[![Everest Base Camp flythrough](https://ebc-flythrough.pages.dev/og/og-image-v5.jpg)](https://ebc-flythrough.pages.dev)
 
 ## The courses
 
@@ -37,19 +37,24 @@ No backend, no video. Real 3D, streamed:
    choreographed camera along the route — authored shot-by-shot for EBC,
    procedural for UTMB and NYC.
 3. Everything ships as a static site: the whole app is ~430 KB gzipped, with
-   10–31 MB of terrain per course streamed progressively. 60 fps on phones,
-   Lighthouse 100 for accessibility (including a full reduced-motion,
-   keyboard-navigable chapter mode).
+   10-31 MB of terrain per course streamed progressively. 60 fps on desktop and
+   on the phones I have tested, targeting 30+ on mid-range mobile; Lighthouse
+   100 for accessibility, including a full reduced-motion, keyboard-navigable
+   chapter mode.
 
 Each new course is a config + data drop, not a rebuild — the three above share
 one codebase and one pipeline.
 
 ## Data & attribution
 
-Copernicus DEM © ESA/Airbus · contains modified Copernicus Sentinel-2 data ·
-elevation (NYC) USGS 3DEP · buildings and streets © OpenStreetMap
-contributors · building heights via NYC Open Data (DOITT) · course data ©
-UTMB Group / © NYRR.
+Copernicus DEM © ESA/Airbus · contains modified Copernicus Sentinel-2 data
+2025 · elevation (NYC) USGS 3DEP · buildings and streets © OpenStreetMap
+contributors (ODbL) · building heights via NYC Open Data (DOITT) · course data
+© UTMB Group / © NYRR.
+
+Each course page carries the same attribution in its own colophon. The courses
+are the official ones; this project is independent and is not affiliated with,
+endorsed by, or commissioned by UTMB Group, NYRR or any race organiser.
 
 ## Source & contact
 
@@ -57,5 +62,14 @@ The source is private; this repository is the project's public face, and the
 code is available for review on request.
 
 Want a flythrough of your route — a trek, a race, a destination?
-**[rajan121095@gmail.com](mailto:rajan121095@gmail.com)** ·
+**[codingrajan@gmail.com](mailto:codingrajan@gmail.com)** ·
 [LinkedIn](https://www.linkedin.com/in/rajanagarwal71/)
+
+## Licence
+
+The documentation in this repository is licensed
+[CC BY 4.0](LICENSE) — quote it, cite it, build on it, with attribution.
+
+That covers this repository's text only. The application and pipeline source
+are private and are not licensed for reuse, and the datasets above carry their
+own terms, which nothing here overrides.

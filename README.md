@@ -49,8 +49,9 @@ one codebase and one pipeline.
 
 Copernicus DEM © ESA/Airbus · contains modified Copernicus Sentinel-2 data
 2025 · elevation (NYC) USGS 3DEP · buildings and streets © OpenStreetMap
-contributors (ODbL) · building heights via NYC Open Data (DOITT) · course routes
-as published by UTMB Group and by NYRR.
+contributors (ODbL) · building heights via NYC Open Data (DOITT) · UTMB course line
+from the GPX published by UTMB Group on montblanc.utmb.world · NYC course line from a
+public GPX via goandrace.com, a third-party course map rather than an NYRR file.
 
 Each course page carries the same attribution in its own colophon. The courses
 are the official ones; this project is independent and is not affiliated with,

@@ -38,7 +38,7 @@ No backend, no video. Real 3D, streamed:
    procedural for UTMB and NYC.
 3. Everything ships as a static site: the whole app is ~430 KB gzipped, with
    10-31 MB of terrain per course streamed progressively. 60 fps on desktop and
-   on the phones I have tested, targeting 30+ on mid-range mobile; Lighthouse
+   on the iPhone I have tested, targeting 30+ on mid-range mobile; Lighthouse
    100 for accessibility, including a full reduced-motion, keyboard-navigable
    chapter mode.
 
@@ -49,8 +49,8 @@ one codebase and one pipeline.
 
 Copernicus DEM © ESA/Airbus · contains modified Copernicus Sentinel-2 data
 2025 · elevation (NYC) USGS 3DEP · buildings and streets © OpenStreetMap
-contributors (ODbL) · building heights via NYC Open Data (DOITT) · course data
-© UTMB Group / © NYRR.
+contributors (ODbL) · building heights via NYC Open Data (DOITT) · course routes
+as published by UTMB Group and by NYRR.
 
 Each course page carries the same attribution in its own colophon. The courses
 are the official ones; this project is independent and is not affiliated with,
